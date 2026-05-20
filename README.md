@@ -45,10 +45,10 @@ while True:
     print(s.recv(1024).decode()) 
     s.send("acknowledgement recived from the server".encode())
 ```
-
 ## OUPUT
 <img width="930" height="949" alt="Screenshot 2026-05-19 151319" src="https://github.com/user-attachments/assets/26fe4207-5c58-4893-9d08-44cedb6774ed" />
 <img width="938" height="948" alt="Screenshot 2026-05-19 151330" src="https://github.com/user-attachments/assets/6fe5cdce-4e9e-4931-97af-1e0a3d9f82ef" />
+
 ## RESULT
 Thus, python program to perform stop and wait protocol was successfully executed
 
@@ -410,4 +410,5 @@ Thus, python program to perform stop and wait protocol was successfully executed
 
 
 
+.
 .
